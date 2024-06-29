@@ -1,0 +1,17 @@
+.Container {
+  z-index: 1;
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background: #fff;
+  padding: 16px 32px;
+}
+
+.Container img {
+  width: auto;
+  height: 29px;
+}

@@ -1,0 +1,30 @@
+.Container {
+  z-index: 1;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding: 16px 32px;
+  background-color: #fff;
+  color: #002c6b;
+  font-size: .5rem;
+  height: 67px;
+}
+
+.Container p {
+  padding-right: .5rem;
+  text-transform: uppercase;
+}
+
+.Container img {
+  width: auto;
+  height: 16px;
+}
+
+.FurtherLink {
+  display: flex;
+  flex-flow: row nowrap;
+}

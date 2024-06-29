@@ -1,0 +1,135 @@
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding: 32px 0;
+}
+
+.Form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  height: 100%;
+  background-color: #ffffff;
+  padding: 1rem;
+  margin: 0 15%;
+  border-radius: 24px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+.FormTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #002d6b;
+  color: #fff;
+  padding: .5rem;
+  border-radius: 6px;
+  width: 100%;
+  text-align: center;
+}
+
+.FormTitle h1 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.Icon img {
+  width: 1.15rem;
+
+}
+
+.FormInputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: .5rem 0;
+  width: 100%;
+}
+
+.FormInputs input {
+  display: flex;
+  font-size: .5rem;
+  width: 100%;
+  margin: .5rem;
+  padding: .5rem;
+  border-radius: 6px;
+  border: 2px solid #002c6b;
+  background-color: #255db71f;
+}
+
+.FormInputs ::placeholder {
+  color: #002d6ba1;
+}
+
+.ButtonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-bottom: .5rem;
+}
+
+.ButtonContainer button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  padding: 16px 40px;
+  border-radius: 6px;
+  border: 1px solid #002c6b;
+  background-color: #002c6b;
+}
+
+.ButtonContainer button p {
+  padding: .15rem 0 0 0;
+  font-size: .75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.ButtonContainer button img {
+  height: .8rem;
+  margin-right: .25rem;
+}
+
+.ButtonContainer button:hover {
+  background-color: #fff;
+  border: 1.5px solid #002c6b;
+  color: #002c6b;
+  transition: ease-in 0.2s;
+}
+
+.ButtonContainer button:hover p {
+  color: #002c6b;
+  transition: ease-in 0.2s;
+}
+
+.ImageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  
+}
+
+.ImageContainer img {
+  height: 126px;
+  filter: opacity(0.5);
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 1024px) {
+  .Form {
+    width: 100%;
+    margin: 0;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
